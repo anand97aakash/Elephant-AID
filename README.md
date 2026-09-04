@@ -102,7 +102,7 @@ I/O, and `portaudio19-dev` for `sounddevice`.
 
 ```bash
 # 1. Clone
-git clone https://github.com/<user>/animal-sound-detector.git
+git clone https://github.com/anand97aakash/Elephant-AID.git
 cd animal-sound-detector
 
 # 2. Create and activate a virtual environment
