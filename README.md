@@ -1,8 +1,7 @@
 # Animal Sound Detector
 
-An edge-deployable acoustic monitoring application for **Raspberry Pi 5** that records
-or imports labelled audio, trains one of four selectable machine-learning models, and
-performs real-time classification of animal (and human/noise) sounds from a USB or
+A deployable acoustic monitoring application for **Raspberry Pi 5** that is trained on labelled audio from area of human-wildlife conflict zones. This uses machine-learning models to 
+performs real-time classification of elephants (and human/noise) sounds from a USB or
 infrasonic microphone. Confirmed detections can be pushed to the field via **SMS** and
 to the cloud via **ThingsBoard**, both through a Waveshare **SIM7600G-H** cellular modem.
 
