@@ -1,0 +1,41 @@
+# Python dependencies for the Animal Sound Detector.
+#
+# System packages (install first on Debian / Raspberry Pi OS):
+#   sudo apt install -y python3-tk ffmpeg libsndfile1 portaudio19-dev
+#
+# Tkinter and its bindings ship with CPython but must be installed as the
+# system package python3-tk on Debian-based systems; it is NOT a pip package.
+#
+# For a published result, replace the ">=" version floors below with exact
+# "==" pins matching the environment you used, to make the build reproducible.
+
+# --- Core numerical / signal processing ---
+numpy>=1.24
+scipy>=1.10
+
+# --- Machine learning (handcrafted-feature models) ---
+scikit-learn>=1.3
+joblib>=1.3
+
+# --- Audio I/O and DSP ---
+sounddevice>=0.4.6      # requires portaudio19-dev
+pydub>=0.25.1           # MP3 import; requires ffmpeg
+librosa>=0.10           # mel-spectrogram features (Matt-Logic model)
+
+# --- Deep-learning back-ends (optional, loaded lazily) ---
+birdnet>=0.1.6          # BirdNET embedding encoder; requires libsndfile1
+
+# TensorFlow is needed to TRAIN the Matt-Logic (EfficientNet) model and
+# provides tf.lite.Interpreter for inference. On Raspberry Pi you may instead
+# install the lighter tflite-runtime for inference only (see below).
+tensorflow>=2.15 ; platform_machine != "aarch64"
+
+# On Raspberry Pi OS (aarch64), if you do not install full TensorFlow,
+# uncomment the following line to enable Matt-Logic live inference:
+# tflite-runtime>=2.14
+
+# --- Cellular modem control (SIM7600G-H SMS + ThingsBoard HTTP) ---
+pyserial>=3.5
+
+# --- Plotting / GUI ---
+matplotlib>=3.7

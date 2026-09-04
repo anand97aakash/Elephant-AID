@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the associated article."
+title: "Animal Sound Detector: an edge acoustic monitoring and alerting application for Raspberry Pi 5"
+type: software
+version: "5.0.0"
+date-released: "<YYYY-MM-DD>"
+license: MIT
+repository-code: "https://github.com/<user>/animal-sound-detector"
+authors:
+  - family-names: "<Family name>"
+    given-names: "<Given name>"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+    # affiliation: "<Institution>"
+  # - family-names: "<Family name>"
+  #   given-names: "<Given name>"
+keywords:
+  - bioacoustics
+  - acoustic monitoring
+  - machine learning
+  - Raspberry Pi
+  - BirdNET
+  - edge computing
+  - infrasound
+
+# Uncomment and complete once the manuscript is published, so that "Cite this
+# repository" on GitHub points readers to the paper.
+# preferred-citation:
+#   type: article
+#   title: "<PAPER TITLE>"
+#   authors:
+#     - family-names: "<Family name>"
+#       given-names: "<Given name>"
+#   journal: "<Journal>"
+#   year: <YEAR>
+#   doi: "<DOI>"
