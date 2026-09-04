@@ -1,4 +1,4 @@
-# Animal Sound Detector
+# Elephant-AID
 
 A deployable acoustic monitoring application for **Raspberry Pi 5** that is trained on labelled audio from area of human-wildlife conflict zones. This uses machine-learning models to 
 performs real-time classification of elephants (and human/noise) sounds from a USB or
