@@ -5,7 +5,7 @@ performs real-time classification of elephants (and human/noise) sounds from a U
 infrasonic microphone. Confirmed detections can be pushed to the field via **SMS** and
 to the cloud via **ThingsBoard**, both through a Waveshare **SIM7600G-H** cellular modem.
 
-> This repository accompanies the manuscript *"<PAPER TITLE>"* (`<Authors>`, `<Journal>`, `<Year>`).
+> This repository accompanies the manuscript *"<Elephant-AID: Automated Acoustic Interactive Device (AID) to assist in human-elephant conflict mitigation>"* (`Under review`).
 > Please see [Citation](#citation) below.
 
 <!-- Optional badges — update or remove as appropriate.
