@@ -225,9 +225,9 @@ If you use this software, please cite both the manuscript and the software (see
 
 ```bibtex
 @article{<KEY>,
-  title   = {<PAPER TITLE>},
-  author  = {<Author, A. and Author, B.>},
-  journal = {<Journal>},
+  title   = {Elephant-AID: Automated Acoustic Interactive Device (AID) to assist in human-elephant conflict mitigation.},
+  author  = {H S Sathya Chandra Sagar, Vaishakh Rao, Akash Anand, Maia Persche, Virat Rajath Nayak, Zuzana Burivalova},
+  journal = {Under Review},
   year    = {<Year>},
   doi     = {<DOI>}
 }
